@@ -14,3 +14,6 @@ Agnir `v1.0.2` (`repository-filesystem/1.0`) installed for this Project. Entry p
 
 ## D5: Fork divergence from generated files (open)
 Fork-sync failed on the scheduled run because the fork's bot commits (`4ca2d76`, `1574695`) and upstream's bot commit (`c0fa866`) diverge. Resolution is pending the Principal's choice (see next-actions.md, item 1). No merge was performed.
+
+## D6: origin uses github-account-2 alias
+`origin` is set to `git@github-account-2:jaytantech3000/LunaTV-config.git` so plain `git fetch` and `git push` use the `id_ed25519_github_jaytantech` key. Replaces the default `github.com` host (`mattamior`, no write access).
