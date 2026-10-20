@@ -738,3 +738,6 @@ console.log(`Request from: ${request.headers.get('cf-connecting-ip')}`)
 
 
 
+## Agnir Project Instructions
+
+Agnir 项目指令见 [AGNIR.md](AGNIR.md)。

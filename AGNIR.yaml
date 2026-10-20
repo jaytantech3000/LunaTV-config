@@ -1,0 +1,20 @@
+agnir:
+  version: "1.0"
+  discovery_profile: "repository-filesystem/1.0"
+
+project:
+  identity: "lunatv-config"
+  profiles:
+    - "repository-filesystem/1.0"
+
+continuity:
+  lineage: "lunatv-config-main"
+
+memory:
+  state: ".agnir/state.md"
+  next_actions: ".agnir/next-actions.md"
+  decisions: ".agnir/decisions.md"
+  evidence: ".agnir/evidence/"
+
+policy:
+  checkpoint: "event-driven"
